@@ -10,7 +10,11 @@ spring:
         git:
           uri: https://github.com/BayardJunior/ead-archive-config-server
           default-label: main
+
 ead:
+  configServer:
+    username: configServer
+    password: 'ead123cs'
   serviceRegistry:
     username: serviceregistry
     password: 'ead123sr'
